@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity=""
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PreferencesActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select your preferences:"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/cbFitness"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fitness" />
+
+        <CheckBox
+            android:id="@+id/cbNutrition"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nutrition" />
+
+        <CheckBox
+            android:id="@+id/cbMentalHealth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mental Health" />
+
+        <Button
+            android:layout_gravity="center"
+            android:id="@+id/btnSavePreferences"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Save Preferences"
+            android:layout_marginTop="16dp" />
+
+    </LinearLayout>
+
+</LinearLayout>
